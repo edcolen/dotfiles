@@ -49,3 +49,4 @@ export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe
 sudo /etc/init.d/postgresql start
 export DISPLAY=172.29.208.1:0
 export DISPLAY=172.29.208.1:0
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
