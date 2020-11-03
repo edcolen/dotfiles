@@ -12,6 +12,7 @@
 [core]
   pager = less -FRSX
 	editor = subl -n -w  >/dev/null 2>&1
+	autocrlf = input
 
 [alias]
   co = checkout
@@ -54,3 +55,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[credential]
+	helper = store
