@@ -51,3 +51,4 @@ export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BROWSER=/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe
 export BROWSER=/mnt/c/Program\ Files/Mozilla\ Firefox/firefox.exe
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
