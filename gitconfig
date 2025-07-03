@@ -13,6 +13,7 @@
   pager = less -FRSX
 	# editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 	autocrlf = input
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
 [alias]
   co = checkout
