@@ -6,6 +6,17 @@ ZSH_THEME="af-magic"
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
 plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search ssh-agent docker docker-compose zsh-completions zsh-autosuggestions)
 
+# Installing plugins
+# git clone https://github.com/zsh-users/zsh-syntax-highlighting.git \
+#   ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# git clone https://github.com/zsh-users/zsh-autosuggestions.git \
+#   ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# git clone https://github.com/zsh-users/zsh-completions.git \
+#   ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
+
+
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
 ZSH_DISABLE_COMPFIX=true
@@ -47,5 +58,3 @@ export BROWSER=/mnt/c/Program\ Files\ (x86)/Microsoft\ Edge/Application/msedge.e
 # sudo /etc/init.d/postgresql start
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
